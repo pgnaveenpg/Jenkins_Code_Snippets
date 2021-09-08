@@ -1,7 +1,7 @@
 pipeline { 
 agent any
     stages {
-        stage('Clone punkk') {
+        stage('Clone git') {
             steps {
                 git 'https://github.com/pgnaveenpg/Jenkins_Code_Snippets.git'
             }
